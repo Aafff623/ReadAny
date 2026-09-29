@@ -46,3 +46,13 @@ readese/*
 # Local WebDAV test server
 webdav-server/
 theme-studio/.claude/settings.local.json
+
+# TTA local workspace (fork-local governance assets; entry points stay tracked)
+temp/*
+!temp/README.md
+!temp/AGENTS.md
+.agents/mcp.json
+
+# CodeGraph local index and generated editor rules
+.codegraph/
+.cursor/
